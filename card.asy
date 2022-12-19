@@ -147,5 +147,5 @@ label(
     "\\ or hold it in front of a light}",
     (0.5paper.x, 0.5margins.y));
 
-currentpicture = shift(paper.x, 0) * currentpicture;
+add(shift(paper.x, 0) * currentpicture);
 fixedscaling((0, 0), xscale(2) * paper);
